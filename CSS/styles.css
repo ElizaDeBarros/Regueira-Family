@@ -1,18 +1,15 @@
 /*****************************TAG STYLES**********************************/
 .my-body{
     margin:0;
-    text-align: center;
-    font-family: 'Zilla Slab', serif;
     background-image: 'CSS/images/floor-tile.png';
     background-repeat: no-repeat;
       }
-}
 
 h1 {
     color: #543A14;
     margin: 10px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
+    font-family: 'Atkinson Hyperlegible Next', serif;
+    font-size: 4rem;
     line-height: 1.2;
 }
 
@@ -23,16 +20,12 @@ h2 {
     font-weight: bold;
 }
 
-h3 {
-    color: #3C8DAD;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-}
-
 p {
     margin: 0 auto 0 auto;
     line-height: 1.5;  
-    text-align: center; 
+    text-align: justify;
+    color: #543A14;
+    font-size: 20px;
 }
 
 
@@ -93,27 +86,14 @@ form {
     
 
 /*****************************CLASS**********************************/
-.align_left {
-    text-align: left; 
-    width: 50% 
+.bottom-container {
+    background-color: #543A14;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center
 }
 
-.align_right {
-    text-align: right;
-    width: 50% 
-}
-
-
-.arcgis {
-    width: 6%;
-    margin-left: 10px;
-}
-
-
-.bottom-container{
-    background-color: #3C8DAD;
-    padding: 50px 0px 20px;
-}
 
 .contact-me {
     width:40%;
@@ -126,56 +106,49 @@ form {
     text-align: center;
 }
 
-.data_analysis_bottom {
-    position: absolute;
-    left:200px;
-    bottom: 80px;
-    height: 20%;
-    background-color: white;
-}
-.bodega {
-    position:relative;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
-    height: 100%;
-    width: 50%;
+.jornal-victoriano{
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 50px solid #ADA991;
+    border-radius: 10px;
+    padding: 0px;    
 }
 
-.dropdown-menu {
-    margin-right: 0;
+.frame-victoriano{
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 50px solid #543A14;
+    border-radius: 10px;
+    padding: 0px;     
 }
 
-.frame1{
-    position:relative;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
-    height: 100%;
-    width: 100%;
-}
-.middle-container{
-    padding-top: 80px;
+.left-manoel {
+    background-color: #ADA991;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.MSSQL {
-    width: 7%;
-    margin-left: 10px;
-}
-.myForm {
-    float:center; 
-    clear:both; 
-    padding-bottom: 10px;
-    display: inline-block;
+.manoel {
+    display: grid;
+    height: 600px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px;
 }
 
-.my-portfolio{
-    padding-top: 80px;
+.right-manoel {
+    text-align: center;
+    color: #543A14;
+    padding: 10px 20px 10px 20px;
+    
 }
-
 .navbar-color {
     background-color: #3C8DAD;
     font-weight: bolder;
@@ -188,99 +161,12 @@ form {
 }
 
 
-.office {
-    width: 5%;
-    margin-left: 10px;
-}
-
-.ow {
-    width: 4%;
-    margin-left: 10px;
-}
-
-
-#second-col {
-    background-color: red
- }
-
-
-.postgresql {
-    width: 5%;
-    margin-left: 10px;
-}
-
-.powerbi{
-    width: 7%;
-    margin-left: 10px;
-}
-
-.python {
-    width: 5%;
-    margin-left: 10px;
-}
-
-.qgis {
-    width: 6%;
-    margin-left: 10px;
-}
-
 .skill-row{
-    
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
-
-.style_left {
-    text-align: left;
-}
-
-.style_right {
-    text-align: right;
-}
-
-.talk {
-    text-align: center
-}
-.bottom-container {
-    background-color: #543A14;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center
-}
-
-.wasp {
-    width: 4%;
-    margin-left: 10px;
-}
-
-.web {
-    width: 7%;
-    margin-left: 10px;
-
-}
-
-.windog {
-    width: 6%;
-    margin-left: 10px;
-}
-
-.wind_farmer {
-    width: 5%;
-    margin-left: 10px;
-}
-
-.wind_pro {
-    width: 6%;
-    margin-left: 10px;
-}
-
-.windsim {
-    width: 6%;
-    margin-left: 10px;
- }
 
 .ufpe{
     margin:0;
@@ -292,6 +178,30 @@ form {
 .ufpe:hover {
     font-weight: bold;
     color: #3C8DAD;
+}
+
+.left-victoriano {
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+}
+
+.middle-victoriano {
+    height: 600px;
+    background-color: #543A14;
+}
+
+.right-victoriano {
+    height: 600px;
+    background-color: #ADA991;
+}
+
+.victoriano {
+    display: grid;
+    height: 600px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
 }
 
 /*****************************ID**********************************/
@@ -333,30 +243,8 @@ font-weight: bolder;
     text-decoration: none;
   }
 
-#left-container1 {
-    background-color: #ADA991;
-    padding: 10px 20px 10px 20px;
-    height: 600px
-}
 
-#right-container1 {
-    font-size: 20px;
-    text-align: center;
-    color: #543A14;
-    padding: 10px 20px 10px 20px;
-}
 
-#left-container2 {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px 20px 10px 20px;
-}
-
-#right-container2 {
-    background-color: #ADA991;
-    padding: 10px 20px 10px 20px;
-    height: 400px
-}
 
 #right-container3 {
     font-size: 20px;
